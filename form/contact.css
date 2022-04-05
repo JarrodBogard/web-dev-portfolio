@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     /* height: 960px; */
     background-image: url("imgForm/form.jpg");
     background-size: cover;
@@ -53,6 +54,10 @@ form {
     margin-top: 100px;
 }
 
+form div.mb-3 {
+    margin-bottom: .75rem!important;
+}
+
 label.form-label {
     color: #212529;
     font-size: 1.25rem;
@@ -84,6 +89,7 @@ footer {
 @media(max-width:1350px) {
     footer {
         bottom: 2%;
+        /* margin: 0; */
     }
 }
 

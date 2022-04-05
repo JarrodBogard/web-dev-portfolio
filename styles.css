@@ -53,9 +53,12 @@ img.home {
 } */
 
 main {
-    width: auto;
+    width: 350px;
     color: #F0F1ED;
-    left: calc(50% - 95pt);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* left: calc(50% - 95pt); */
     top: 40%;
     position: absolute;
     overflow: hidden;
